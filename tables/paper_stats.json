@@ -1,0 +1,364 @@
+{
+ "yearly": [
+  {
+   "year": 2022,
+   "victims": 2788,
+   "groups": 59,
+   "groups_for_50pct": 4,
+   "hhi": 1379.747,
+   "top_group": "lockbit",
+   "top_share": 0.341
+  },
+  {
+   "year": 2023,
+   "victims": 5055,
+   "groups": 69,
+   "groups_for_50pct": 5,
+   "hhi": 783.454,
+   "top_group": "lockbit",
+   "top_share": 0.206
+  },
+  {
+   "year": 2024,
+   "victims": 5852,
+   "groups": 95,
+   "groups_for_50pct": 10,
+   "hhi": 396.305,
+   "top_group": "ransomhub",
+   "top_share": 0.102
+  },
+  {
+   "year": 2025,
+   "victims": 7974,
+   "groups": 123,
+   "groups_for_50pct": 9,
+   "hhi": 436.302,
+   "top_group": "qilin",
+   "top_share": 0.13
+  },
+  {
+   "year": 2026,
+   "victims": 7493,
+   "groups": 144,
+   "groups_for_50pct": 9,
+   "hhi": 447.397,
+   "top_group": "qilin",
+   "top_share": 0.135
+  }
+ ],
+ "hhi_trend": {
+  "coef_per_quarter": -0.08327215692766221,
+  "pct_per_year": -28.32933287306848,
+  "p": 8.326863541046877e-10,
+  "n_quarters": 19
+ },
+ "hhi_by_period": {
+  "hhi_all": {
+   "2022-2023": 1464.0,
+   "2024-2026": 565.0
+  },
+  "hhi_first_claims": {
+   "2022-2023": 1475.0,
+   "2024-2026": 560.0
+  },
+  "hhi_groups_ge50": {
+   "2022-2023": 1803.0,
+   "2024-2026": 688.0
+  },
+  "hhi_excl_clop": {
+   "2022-2023": 1534.0,
+   "2024-2026": 567.0
+  }
+ },
+ "hhi_quarterly_robust": [
+  {
+   "quarter": "2022Q1",
+   "hhi_all": 2014.0,
+   "hhi_first_claims": 2013.0,
+   "hhi_groups_ge50": 2492.0,
+   "hhi_excl_clop": 2014.0,
+   "period": "2022-2023"
+  },
+  {
+   "quarter": "2022Q2",
+   "hhi_all": 2351.0,
+   "hhi_first_claims": 2370.0,
+   "hhi_groups_ge50": 3029.0,
+   "hhi_excl_clop": 2351.0,
+   "period": "2022-2023"
+  },
+  {
+   "quarter": "2022Q3",
+   "hhi_all": 2151.0,
+   "hhi_first_claims": 2173.0,
+   "hhi_groups_ge50": 2993.0,
+   "hhi_excl_clop": 2151.0,
+   "period": "2022-2023"
+  },
+  {
+   "quarter": "2022Q4",
+   "hhi_all": 760.0,
+   "hhi_first_claims": 765.0,
+   "hhi_groups_ge50": 913.0,
+   "hhi_excl_clop": 773.0,
+   "period": "2022-2023"
+  },
+  {
+   "quarter": "2023Q1",
+   "hhi_all": 1605.0,
+   "hhi_first_claims": 1614.0,
+   "hhi_groups_ge50": 1754.0,
+   "hhi_excl_clop": 1901.0,
+   "period": "2022-2023"
+  },
+  {
+   "quarter": "2023Q2",
+   "hhi_all": 936.0,
+   "hhi_first_claims": 955.0,
+   "hhi_groups_ge50": 1090.0,
+   "hhi_excl_clop": 1032.0,
+   "period": "2022-2023"
+  },
+  {
+   "quarter": "2023Q3",
+   "hhi_all": 1176.0,
+   "hhi_first_claims": 1190.0,
+   "hhi_groups_ge50": 1311.0,
+   "hhi_excl_clop": 1329.0,
+   "period": "2022-2023"
+  },
+  {
+   "quarter": "2023Q4",
+   "hhi_all": 717.0,
+   "hhi_first_claims": 721.0,
+   "hhi_groups_ge50": 844.0,
+   "hhi_excl_clop": 724.0,
+   "period": "2022-2023"
+  },
+  {
+   "quarter": "2024Q1",
+   "hhi_all": 734.0,
+   "hhi_first_claims": 735.0,
+   "hhi_groups_ge50": 867.0,
+   "hhi_excl_clop": 745.0,
+   "period": "2024-2026"
+  },
+  {
+   "quarter": "2024Q2",
+   "hhi_all": 684.0,
+   "hhi_first_claims": 559.0,
+   "hhi_groups_ge50": 764.0,
+   "hhi_excl_clop": 691.0,
+   "period": "2024-2026"
+  },
+  {
+   "quarter": "2024Q3",
+   "hhi_all": 515.0,
+   "hhi_first_claims": 520.0,
+   "hhi_groups_ge50": 594.0,
+   "hhi_excl_clop": 517.0,
+   "period": "2024-2026"
+  },
+  {
+   "quarter": "2024Q4",
+   "hhi_all": 443.0,
+   "hhi_first_claims": 451.0,
+   "hhi_groups_ge50": 503.0,
+   "hhi_excl_clop": 463.0,
+   "period": "2024-2026"
+  },
+  {
+   "quarter": "2025Q1",
+   "hhi_all": 643.0,
+   "hhi_first_claims": 646.0,
+   "hhi_groups_ge50": 719.0,
+   "hhi_excl_clop": 533.0,
+   "period": "2024-2026"
+  },
+  {
+   "quarter": "2025Q2",
+   "hhi_all": 475.0,
+   "hhi_first_claims": 493.0,
+   "hhi_groups_ge50": 586.0,
+   "hhi_excl_clop": 476.0,
+   "period": "2024-2026"
+  },
+  {
+   "quarter": "2025Q3",
+   "hhi_all": 517.0,
+   "hhi_first_claims": 526.0,
+   "hhi_groups_ge50": 670.0,
+   "hhi_excl_clop": 518.0,
+   "period": "2024-2026"
+  },
+  {
+   "quarter": "2025Q4",
+   "hhi_all": 697.0,
+   "hhi_first_claims": 705.0,
+   "hhi_groups_ge50": 815.0,
+   "hhi_excl_clop": 743.0,
+   "period": "2024-2026"
+  },
+  {
+   "quarter": "2026Q1",
+   "hhi_all": 583.0,
+   "hhi_first_claims": 591.0,
+   "hhi_groups_ge50": 677.0,
+   "hhi_excl_clop": 619.0,
+   "period": "2024-2026"
+  },
+  {
+   "quarter": "2026Q2",
+   "hhi_all": 472.0,
+   "hhi_first_claims": 474.0,
+   "hhi_groups_ge50": 616.0,
+   "hhi_excl_clop": 473.0,
+   "period": "2024-2026"
+  },
+  {
+   "quarter": "2026Q3",
+   "hhi_all": 452.0,
+   "hhi_first_claims": 464.0,
+   "hhi_groups_ge50": 761.0,
+   "hhi_excl_clop": 464.0,
+   "period": "2024-2026"
+  }
+ ],
+ "survival": {
+  "2022-2023": {
+   "n": 70,
+   "exits": 56,
+   "median_months": 9.362680683311432,
+   "surv_12m": 0.47142857142857125
+  },
+  "2024-2026": {
+   "n": 169,
+   "exits": 85,
+   "median_months": 8.83705650459921,
+   "surv_12m": 0.4573735167645096
+  },
+  "logrank_p": 0.5590618415509998,
+  "all": {
+   "n": 239,
+   "median_months": 9.132720105124836,
+   "ci": null
+  }
+ },
+ "young_brand_share_by_year": {
+  "2023": 0.558,
+  "2024": 0.533,
+  "2025": 0.403,
+  "2026": 0.431
+ },
+ "lockbit": {
+  "mean_monthly_pre6": 88.16666666666667,
+  "mean_monthly_post1_6": 57.333333333333336,
+  "mean_monthly_post7_12": 6.666666666666667,
+  "share_pre6": 0.20672137553731926,
+  "share_post1_6": 0.11716621253405994,
+  "share_post7_12": 0.01045751633986928,
+  "peak_month_post": "2024-05",
+  "peak_value_post": 176
+ },
+ "lockbit_raw_repost_share": {
+  "false": 0.007,
+  "true": 0.033
+ },
+ "its_log_total": {
+  "all": {
+   "post": -0.1865,
+   "p_post": 0.3659,
+   "t_post": 0.0211,
+   "p_t_post": 0.4231
+  },
+  "all_placebo_-6": {
+   "post": -0.5453,
+   "p_post": 0.0054,
+   "t_post": -0.2371,
+   "p_t_post": 0.0
+  },
+  "excl_clop": {
+   "post": -0.1422,
+   "p_post": 0.4145,
+   "t_post": -0.0076,
+   "p_t_post": 0.7449
+  },
+  "excl_clop_placebo_-6": {
+   "post": -0.3264,
+   "p_post": 0.0633,
+   "t_post": -0.2069,
+   "p_t_post": 0.0
+  }
+ },
+ "italy": {
+  "total": 683,
+  "share_world": 0.0298,
+  "share_of_eu": 0.1554,
+  "rank_world": 5,
+  "rank_eu": 2,
+  "top_groups": {
+   "lockbit": 95,
+   "qilin": 69,
+   "thegentlemen": 35,
+   "akira": 34,
+   "ransomhub": 28,
+   "8base": 19
+  },
+  "top_sectors": {
+   "Manufacturing": 0.276,
+   "Professional Services": 0.173,
+   "Technology": 0.152,
+   "Retail & E-Commerce": 0.089,
+   "Agriculture and Food Production": 0.074
+  },
+  "by_year": {
+   "2022": 32,
+   "2023": 90,
+   "2024": 154,
+   "2025": 176,
+   "2026": 231
+  }
+ },
+ "country_missing_by_year": {
+  "2022": 0.807,
+  "2023": 0.55,
+  "2024": 0.064,
+  "2025": 0.045,
+  "2026": 0.065
+ },
+ "sector_missing_by_year": {
+  "2022": 0.123,
+  "2023": 0.025,
+  "2024": 0.012,
+  "2025": 0.03,
+  "2026": 0.065
+ },
+ "specialisation": {
+  "n_groups": 86,
+  "median_js": 0.2138364114734261,
+  "iqr_js": [
+   0.17,
+   0.277
+  ],
+  "spearman_size_vs_js": -0.4271009262521025,
+  "p": 4.112072932213301e-05,
+  "top_sectors_market": {
+   "Professional Services": 0.2,
+   "Manufacturing": 0.185,
+   "Technology": 0.131,
+   "Healthcare": 0.089,
+   "Retail & E-Commerce": 0.072,
+   "Financial Services": 0.06
+  }
+ },
+ "reposts": {
+  "share_claims_not_first": 0.0349,
+  "share_victims_multi_group": 0.0681,
+  "n_victims": 29162,
+  "n_groups": 287,
+  "period": [
+   "2022-01-01",
+   "2026-09-30"
+  ]
+ }
+}

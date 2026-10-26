@@ -1,0 +1,7 @@
+pandas>=2.0
+numpy
+matplotlib
+requests
+statsmodels
+scipy
+lifelines

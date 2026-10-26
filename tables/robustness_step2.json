@@ -1,0 +1,513 @@
+{
+ "cr_k": {
+  "whole_period": {
+   "n_groups": 287,
+   "gini": 0.7824666580799269,
+   "top1pct": {
+    "k": 3,
+    "share": 0.2328
+   },
+   "top5pct": {
+    "k": 14,
+    "share": 0.5323
+   },
+   "top10pct": {
+    "k": 29,
+    "share": 0.6753
+   },
+   "top20pct": {
+    "k": 57,
+    "share": 0.8156
+   },
+   "cr15": 0.5477,
+   "groups_for_50pct": 13
+  },
+  "yearly": [
+   {
+    "year": 2022,
+    "n_groups": 59,
+    "gini": 0.732,
+    "k_1pct": 1,
+    "cr_1pct": 0.3415,
+    "k_5pct": 3,
+    "cr_5pct": 0.4634,
+    "k_10pct": 6,
+    "cr_10pct": 0.6137,
+    "k_20pct": 12,
+    "cr_20pct": 0.7683,
+    "cr3": 0.4634
+   },
+   {
+    "year": 2023,
+    "n_groups": 69,
+    "gini": 0.709,
+    "k_1pct": 1,
+    "cr_1pct": 0.2063,
+    "k_5pct": 3,
+    "cr_5pct": 0.4002,
+    "k_10pct": 7,
+    "cr_10pct": 0.6006,
+    "k_20pct": 14,
+    "cr_20pct": 0.7628,
+    "cr3": 0.4002
+   },
+   {
+    "year": 2024,
+    "n_groups": 95,
+    "gini": 0.683,
+    "k_1pct": 1,
+    "cr_1pct": 0.1015,
+    "k_5pct": 5,
+    "cr_5pct": 0.3573,
+    "k_10pct": 10,
+    "cr_10pct": 0.5224,
+    "k_20pct": 19,
+    "cr_20pct": 0.7109,
+    "cr3": 0.2544
+   },
+   {
+    "year": 2025,
+    "n_groups": 123,
+    "gini": 0.707,
+    "k_1pct": 1,
+    "cr_1pct": 0.1304,
+    "k_5pct": 6,
+    "cr_5pct": 0.4281,
+    "k_10pct": 12,
+    "cr_10pct": 0.5825,
+    "k_20pct": 25,
+    "cr_20pct": 0.7481,
+    "cr3": 0.2843
+   },
+   {
+    "year": 2026,
+    "n_groups": 144,
+    "gini": 0.715,
+    "k_1pct": 1,
+    "cr_1pct": 0.1353,
+    "k_5pct": 7,
+    "cr_5pct": 0.4503,
+    "k_10pct": 14,
+    "cr_10pct": 0.5883,
+    "k_20pct": 29,
+    "cr_20pct": 0.7412,
+    "cr3": 0.2975
+   }
+  ]
+ },
+ "lineage_hhi": {
+  "brand": {
+   "n_units": 287,
+   "hhi_mean_2022_2023": 1464.0,
+   "hhi_mean_2024_2026": 565.0,
+   "hhi_max_2024_2026": 734.0,
+   "trend_pct_per_year": -28.3,
+   "trend_p": 8.326863541046877e-10
+  },
+  "strict": {
+   "n_units": 283,
+   "hhi_mean_2022_2023": 1464.0,
+   "hhi_mean_2024_2026": 565.0,
+   "hhi_max_2024_2026": 734.0,
+   "trend_pct_per_year": -28.3,
+   "trend_p": 7.585488914001667e-10
+  },
+  "broad": {
+   "n_units": 278,
+   "hhi_mean_2022_2023": 1464.0,
+   "hhi_mean_2024_2026": 599.0,
+   "hhi_max_2024_2026": 790.0,
+   "trend_pct_per_year": -26.7,
+   "trend_p": 3.532387168381144e-08
+  }
+ },
+ "survival_sensitivity": [
+  {
+   "unit": "brand",
+   "exit_days": 60,
+   "min_victims": 3,
+   "n": 239,
+   "exits": 149,
+   "median_months": 8.8,
+   "median_ci95": [
+    5.5,
+    14.5
+   ],
+   "surv_12m": 0.456,
+   "median_2022_2023": 9.4,
+   "median_2024_2026": 8.4,
+   "logrank_p": 0.179
+  },
+  {
+   "unit": "brand",
+   "exit_days": 60,
+   "min_victims": 5,
+   "n": 216,
+   "exits": 132,
+   "median_months": 10.1,
+   "median_ci95": [
+    7.3,
+    17.6
+   ],
+   "surv_12m": 0.484,
+   "median_2022_2023": 11.4,
+   "median_2024_2026": 10.0,
+   "logrank_p": 0.343
+  },
+  {
+   "unit": "brand",
+   "exit_days": 60,
+   "min_victims": 10,
+   "n": 174,
+   "exits": 97,
+   "median_months": 17.6,
+   "median_ci95": [
+    10.1,
+    20.4
+   ],
+   "surv_12m": 0.568,
+   "median_2022_2023": 20.0,
+   "median_2024_2026": 14.8,
+   "logrank_p": 0.223
+  },
+  {
+   "unit": "brand",
+   "exit_days": 90,
+   "min_victims": 3,
+   "n": 239,
+   "exits": 141,
+   "median_months": 9.1,
+   "median_ci95": [
+    5.7,
+    15.4
+   ],
+   "surv_12m": 0.464,
+   "median_2022_2023": 9.4,
+   "median_2024_2026": 8.8,
+   "logrank_p": 0.559
+  },
+  {
+   "unit": "brand",
+   "exit_days": 90,
+   "min_victims": 5,
+   "n": 216,
+   "exits": 125,
+   "median_months": 11.4,
+   "median_ci95": [
+    7.6,
+    19.2
+   ],
+   "surv_12m": 0.49,
+   "median_2022_2023": 11.4,
+   "median_2024_2026": 10.1,
+   "logrank_p": 0.849
+  },
+  {
+   "unit": "brand",
+   "exit_days": 90,
+   "min_victims": 10,
+   "n": 174,
+   "exits": 90,
+   "median_months": 19.2,
+   "median_ci95": [
+    11.4,
+    23.7
+   ],
+   "surv_12m": 0.576,
+   "median_2022_2023": 20.0,
+   "median_2024_2026": 15.4,
+   "logrank_p": 0.743
+  },
+  {
+   "unit": "brand",
+   "exit_days": 180,
+   "min_victims": 3,
+   "n": 239,
+   "exits": 122,
+   "median_months": 13.6,
+   "median_ci95": [
+    7.8,
+    19.7
+   ],
+   "surv_12m": 0.506,
+   "median_2022_2023": 9.4,
+   "median_2024_2026": 14.5,
+   "logrank_p": 0.478
+  },
+  {
+   "unit": "brand",
+   "exit_days": 180,
+   "min_victims": 5,
+   "n": 216,
+   "exits": 110,
+   "median_months": 15.4,
+   "median_ci95": [
+    8.4,
+    20.3
+   ],
+   "surv_12m": 0.527,
+   "median_2022_2023": 11.4,
+   "median_2024_2026": 14.9,
+   "logrank_p": 0.352
+  },
+  {
+   "unit": "brand",
+   "exit_days": 180,
+   "min_victims": 10,
+   "n": 174,
+   "exits": 80,
+   "median_months": 20.3,
+   "median_ci95": [
+    14.9,
+    29.0
+   ],
+   "surv_12m": 0.608,
+   "median_2022_2023": 20.0,
+   "median_2024_2026": 17.6,
+   "logrank_p": 0.601
+  },
+  {
+   "unit": "strict",
+   "exit_days": 60,
+   "min_victims": 3,
+   "n": 235,
+   "exits": 145,
+   "median_months": 9.1,
+   "median_ci95": [
+    5.7,
+    14.9
+   ],
+   "surv_12m": 0.466,
+   "median_2022_2023": 11.4,
+   "median_2024_2026": 8.8,
+   "logrank_p": 0.116
+  },
+  {
+   "unit": "strict",
+   "exit_days": 90,
+   "min_victims": 3,
+   "n": 235,
+   "exits": 137,
+   "median_months": 9.4,
+   "median_ci95": [
+    6.3,
+    15.5
+   ],
+   "surv_12m": 0.474,
+   "median_2022_2023": 11.4,
+   "median_2024_2026": 9.1,
+   "logrank_p": 0.374
+  },
+  {
+   "unit": "strict",
+   "exit_days": 180,
+   "min_victims": 3,
+   "n": 235,
+   "exits": 118,
+   "median_months": 14.5,
+   "median_ci95": [
+    8.1,
+    20.3
+   ],
+   "surv_12m": 0.518,
+   "median_2022_2023": 11.4,
+   "median_2024_2026": 14.5,
+   "logrank_p": 0.679
+  },
+  {
+   "unit": "broad",
+   "exit_days": 60,
+   "min_victims": 3,
+   "n": 230,
+   "exits": 141,
+   "median_months": 9.1,
+   "median_ci95": [
+    5.5,
+    15.4
+   ],
+   "surv_12m": 0.465,
+   "median_2022_2023": 11.9,
+   "median_2024_2026": 8.1,
+   "logrank_p": 0.103
+  },
+  {
+   "unit": "broad",
+   "exit_days": 90,
+   "min_victims": 3,
+   "n": 230,
+   "exits": 134,
+   "median_months": 9.1,
+   "median_ci95": [
+    5.7,
+    17.6
+   ],
+   "surv_12m": 0.473,
+   "median_2022_2023": 11.9,
+   "median_2024_2026": 8.8,
+   "logrank_p": 0.349
+  },
+  {
+   "unit": "broad",
+   "exit_days": 180,
+   "min_victims": 3,
+   "n": 230,
+   "exits": 116,
+   "median_months": 14.5,
+   "median_ci95": [
+    7.8,
+    20.3
+   ],
+   "surv_12m": 0.511,
+   "median_2022_2023": 11.9,
+   "median_2024_2026": 14.5,
+   "logrank_p": 0.76
+  }
+ ],
+ "takedown_events": [
+  {
+   "target": "Hive",
+   "date": "2023-01-26",
+   "target_claims_pre6_per_month": 12.8,
+   "target_claims_post6_per_month": 0.0,
+   "target_share_pre6": 0.053,
+   "target_share_post6": 0.0,
+   "d_log_total": 0.585,
+   "d_log_others": 0.648,
+   "d_log_total_excl_clop": 0.507,
+   "gains_pp_total": 47.1,
+   "gains_share_new_brands": 0.639,
+   "top_gainer": "alphv",
+   "top_gainer_pp": 15.3
+  },
+  {
+   "target": "RagnarLocker",
+   "date": "2023-10-19",
+   "target_claims_pre6_per_month": 3.3,
+   "target_claims_post6_per_month": 0.0,
+   "target_share_pre6": 0.0069,
+   "target_share_post6": 0.0,
+   "d_log_total": -0.022,
+   "d_log_others": -0.015,
+   "d_log_total_excl_clop": 0.056,
+   "gains_pp_total": 38.0,
+   "gains_share_new_brands": 0.731,
+   "top_gainer": "toufan",
+   "top_gainer_pp": 4.6
+  },
+  {
+   "target": "ALPHV/BlackCat",
+   "date": "2023-12-19",
+   "target_claims_pre6_per_month": 94.3,
+   "target_claims_post6_per_month": 8.8,
+   "target_share_pre6": 0.1861,
+   "target_share_post6": 0.0195,
+   "d_log_total": -0.103,
+   "d_log_others": 0.035,
+   "d_log_total_excl_clop": -0.026,
+   "gains_pp_total": 42.2,
+   "gains_share_new_brands": 0.699,
+   "top_gainer": "ransomhub",
+   "top_gainer_pp": 6.5
+  },
+  {
+   "target": "LockBit",
+   "date": "2024-02-20",
+   "target_claims_pre6_per_month": 88.2,
+   "target_claims_post6_per_month": 57.3,
+   "target_share_pre6": 0.2067,
+   "target_share_post6": 0.1172,
+   "d_log_total": 0.137,
+   "d_log_others": 0.246,
+   "d_log_total_excl_clop": 0.138,
+   "gains_pp_total": 44.0,
+   "gains_share_new_brands": 0.806,
+   "top_gainer": "ransomhub",
+   "top_gainer_pp": 10.5
+  },
+  {
+   "target": "Dispossessor",
+   "date": "2024-08-12",
+   "target_claims_pre6_per_month": 47.5,
+   "target_claims_post6_per_month": 0.0,
+   "target_share_pre6": 0.0999,
+   "target_share_post6": 0.0,
+   "d_log_total": 0.275,
+   "d_log_others": 0.367,
+   "d_log_total_excl_clop": 0.182,
+   "gains_pp_total": 46.4,
+   "gains_share_new_brands": 0.654,
+   "top_gainer": "clop",
+   "top_gainer_pp": 11.1
+  },
+  {
+   "target": "8Base",
+   "date": "2025-02-10",
+   "target_claims_pre6_per_month": 8.2,
+   "target_claims_post6_per_month": 0.0,
+   "target_share_pre6": 0.0149,
+   "target_share_post6": 0.0,
+   "d_log_total": 0.049,
+   "d_log_others": 0.063,
+   "d_log_total_excl_clop": 0.078,
+   "gains_pp_total": 51.7,
+   "gains_share_new_brands": 0.664,
+   "top_gainer": "qilin",
+   "top_gainer_pp": 8.6
+  },
+  {
+   "target": "BlackSuit",
+   "date": "2025-07-24",
+   "target_claims_pre6_per_month": 1.5,
+   "target_claims_post6_per_month": 0.0,
+   "target_share_pre6": 0.0023,
+   "target_share_post6": 0.0,
+   "d_log_total": 0.066,
+   "d_log_others": 0.069,
+   "d_log_total_excl_clop": 0.109,
+   "gains_pp_total": 45.6,
+   "gains_share_new_brands": 0.622,
+   "top_gainer": "qilin",
+   "top_gainer_pp": 10.0
+  }
+ ],
+ "takedown_randomisation": {
+  "log_total": {
+   "mean_delta_events": 0.141,
+   "mean_delta_all_months": 0.216,
+   "p_two_sided": 0.268,
+   "n_placebo_months": 38
+  },
+  "log_total_excl_clop": {
+   "mean_delta_events": 0.149,
+   "mean_delta_all_months": 0.213,
+   "p_two_sided": 0.28,
+   "n_placebo_months": 38
+  },
+  "log_active_groups": {
+   "mean_delta_events": 0.156,
+   "mean_delta_all_months": 0.171,
+   "p_two_sided": 0.676,
+   "n_placebo_months": 38
+  },
+  "gains_share_new_brands": {
+   "mean_events": 0.688,
+   "mean_other_months": 0.713,
+   "p_two_sided": 0.619
+  }
+ },
+ "event_path_mean": {
+  "-6": -0.202,
+  "-5": 0.009,
+  "-4": -0.03,
+  "-3": 0.068,
+  "-2": -0.024,
+  "-1": 0.0,
+  "0": -0.051,
+  "1": -0.112,
+  "2": 0.123,
+  "3": 0.065,
+  "4": 0.127,
+  "5": 0.131,
+  "6": 0.333
+ }
+}

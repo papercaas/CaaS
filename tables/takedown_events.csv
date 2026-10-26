@@ -1,0 +1,8 @@
+target,date,target_claims_pre6_per_month,target_claims_post6_per_month,target_share_pre6,target_share_post6,d_log_total,d_log_others,d_log_total_excl_clop,gains_pp_total,gains_share_new_brands,top_gainer,top_gainer_pp
+Hive,2023-01-26,12.8,0.0,0.053,0.0,0.585,0.648,0.507,47.1,0.639,alphv,15.3
+RagnarLocker,2023-10-19,3.3,0.0,0.0069,0.0,-0.022,-0.015,0.056,38.0,0.731,toufan,4.6
+ALPHV/BlackCat,2023-12-19,94.3,8.8,0.1861,0.0195,-0.103,0.035,-0.026,42.2,0.699,ransomhub,6.5
+LockBit,2024-02-20,88.2,57.3,0.2067,0.1172,0.137,0.246,0.138,44.0,0.806,ransomhub,10.5
+Dispossessor,2024-08-12,47.5,0.0,0.0999,0.0,0.275,0.367,0.182,46.4,0.654,clop,11.1
+8Base,2025-02-10,8.2,0.0,0.0149,0.0,0.049,0.063,0.078,51.7,0.664,qilin,8.6
+BlackSuit,2025-07-24,1.5,0.0,0.0023,0.0,0.066,0.069,0.109,45.6,0.622,qilin,10.0
